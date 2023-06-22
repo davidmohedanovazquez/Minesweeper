@@ -1,17 +1,24 @@
 # Minesweeper Game
-El conocido juego del buscaminas, implementado en C# y utilizando Windows Forms, en Visual Studio.
+The well-known minesweeper game, implemented in C# and using Windows Forms, in Visual Studio.
 
-## Características
-El juego consta con tres niveles distintos: Fácil, Intermedio y Difícil en los que varían la cantidad de casillas y la cantidad de minas.
-También lleva un estudio de las estadísticas de las partidas anteriores, cuyos datos se almacenan en un fichero (`statistics.txt`).
+## Features
+The game has three different levels: `Easy`, `Intermediate` and `Hard` in which the number of squares and the number of mines vary.
+It also carries a study of the statistics of the previous games, whose data are stored in a file (`statistics.txt`).
 
-## Cómo lanzarlo
-Clonar este repositorio y abrir el proyecto en Visual Studio, pinchando directamente sobre `MinesweeperGame.sln`. Antes de ejecutar el programa es importante cambiar la ruta del fichero `statistics.txt` por la del ordenador desde el que se ejecuta, tanto en  la línea 12 del fichero `Minesweeper.cs` como en la línea 14 del fichero `Statistics.cs`.
-Ejecutar y disfrutar del juego.
+## How to launch
+1. Clone this repository
+```bash
+$> git clone https://github.com/davidmohedanovazquez/Minesweeper.git
+```
+2. Open the project in Visual Studio (clicking directly on `MinesweeperGame.sln`).
 
-## Cómo jugar
-Los controles del juego son exactamente los mismos que los del juego original:
-- Click izquierdo sobre una casilla para abrirla y descubrir su contenido.
-- Un click derecho sobre una casilla para marcarla con una bandera como Bomba.
-- Segundo click derecho sobre una casilla para marcarla como duda con una interrogación (?).
-- Tercer click derecho sobre una casilla para volver a su estado inicial.
+> **_NOTE:_** Before executing the program it is important to change the path of the `statistics.txt` file to the path of the computer from which it is executed, both in line 12 of the `Minesweeper.cs` file and in line 14 of the `Statistics.cs` file.
+
+Run and enjoy the game.
+
+## How to play
+The game controls are exactly the same as in the original game:
+- Left click on a square to open it and discover its contents.
+- :bomb: Right click on a square to mark it with a flag as Bomb.
+- :grey_question: Second right click on a box to mark it as doubt with a question mark.
+- Third right click on a box to return to its initial state.
